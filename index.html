@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/images/logo.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/a41174b112.js" crossorigin="anonymous"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Portfolio Website</title>
+</head>
+
+<body>
+    <header class="header">
+        <a href="#home" class="logo">callme<span>asliko</span></a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a data-replace="Home" href="#home" class="active"><span>Home</span></a>
+            <a data-replace="About" href="#about"><span>About</span></a>
+            <a data-replace="Portfolio" href="#portfolio"><span>Portfolio</span></a>
+            <a data-replace="Contact" href="#contact"><span>Contact</span></a>
+        </nav>
+    </header>
+    <section class="main-section" id="home">
+        <div id="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Asliddin Bokijonov</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>Passionate about turning complex problems into simple, beautiful, and intuitive solutions. With a strong background in software engineering, I bring a blend of analytical thinking and creativity to every project I undertake.</p>
+            <div class="social-media">
+                <a href="https://t.me/callmereact" target="_blank"><i class='bx bxl-telegram'></i></a>
+                <a href="https://instagram.com/callmeasliko/" target="_blank"><i class='bx bxl-instagram'></i></a>
+                <a href="https://github.com/BokijonovA" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="https://www.linkedin.com/in/callmeasliko/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+            </div>
+            <a href="Asliddin Bokijonov resume.pdf" id="downl-cv-btn">Download CV</a>
+        </div>
+        <div class="home-img">
+            <div>
+                <img src="images/astrum_scene.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="main-section" id="about">
+        <div class="about-img">
+            <img src="images/astrum_scene.png" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Backend Developer | Data scientist</h3>
+            <p>I am a passionate Backend Developer with a strong focus on Software Engineering Full-Stack Development. I have honed my skills in Python, C++, JavaScript, and several other programming languages, working on diverse projects.</p>
+            <a href="./Asliddin Bokijonov resume.pdf" id="about-me-read-more">Read More</a>
+        </div>
+    </section>
+    <section class="parent-section" id="portfolio">
+        <div class="portfolio-h2">
+            <h2>Portfolio</h2>
+        </div>
+        <div class="line"></div>
+        <div class="main-section" id="madina-project">
+            <h3>Madina</h3>
+            <div id="madina-container">
+                <p class="item item-1">
+                    I developed a Telegram bot using Python that provides real-time weather forecasts and personalized clothing recommendations based on the forecasted conditions. The bot fetches weather data from an API analyzes temperature humidity and weather conditions and suggests appropriate attire.</p>
+                <div class="item item-2">
+                    <h4>Key Features:</h4>
+                    <ul>
+                        <li>Real-Time Weather Updates: Fetches accurate weather data for any location.</li>
+                        <li>Smart Outfit Suggestions: Advises users on how to dress based on weather conditions.</li>
+                        <li>User-Friendly Interface: Simple Telegram commands for quick interaction</li>
+                        <li>Automated Alerts: Notifies users about significant weather changes.</li>
+                    </ul>
+                </div>
+                <div class="madina-image item item-3">
+                    <img src="images/logo-madina.png" alt="">
+                </div>
+                <p class="item item-4">
+                    Join Madina today and never worry about what to wear again!
+                </p>
+            </div>
+            <a href="https://t.me/madina_bot" target="_blank" class="effect effect-1 try-button" id="madina-try-btn">Try it!</a>
+        </div>
+        <!-- <a href="https://github.com/BokijonovA" target="_blank" id="more-projects" class="effect effect-1 more-button">More Projects</a> -->
+    </section>
+    <section class="main-section" id="contact">
+        <div class="heading">
+            <h2>Contact <span>Me!</span></h2>
+        </div>
+        <div class="socials">
+            <a href="https://t.me/callmeasliko" target="_blank">
+                <i class="bx bxl-telegram" id="telegram"></i>
+                <div>
+                    <h5>Telegram</h5>
+                </div>
+            </a>
+            <a href="https://instagram.com/callmeasliko/" target="_blank">
+                <i class="bx bxl-instagram" id="instagram"></i>
+                <div>
+                    <h5>Instagram</h5>
+                </div>
+            </a>
+            <a href="https://github.com/BokijonovA" target="_blank">
+                <i class="bx bxl-github" id="github"></i>
+                <div>
+                    <h5>GitHub</h5>
+                </div>
+            </a>
+            <a href="www.linkedin.com/in/callmeasliko" target="_blank">
+                <i class="bx bxl-linkedin" id="linkedin"></i>
+                <div>
+                    <h5>Linkedin</h5>
+                </div>
+            </a>
+        </div>
+    </section>
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- typed js -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- local script -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
